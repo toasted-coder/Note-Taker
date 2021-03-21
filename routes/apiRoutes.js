@@ -1,7 +1,7 @@
 //importing dependencies
 const path = require('path');
 const fs = require('fs');
-const uniqid = require('uniqueid');
+const uniqid = require('uniqid');
 
 module.exports = (app) => {
     app.get('/api/notes', (req, res) => {
