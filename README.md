@@ -9,8 +9,8 @@
   - [Questions](#questions)
   - [License](#license)
 
-  ## Instructional Video
-  ![WIP]()
+  ## Screenshot
+  ![Screenshot of working application](public/assets/screenshot.png)
 
   ## Description
   This is an application that allows you to create and save notes for yourself. In the future when I get caught up on my homework assignments, I will be coming back to add a delete function for the application. Currently you can only create and save notes.
