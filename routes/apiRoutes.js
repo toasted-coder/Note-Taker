@@ -1,7 +1,7 @@
 //importing dependencies
 const path = require('path');
 const fs = require('fs');
-const uniqueid = require('uniqueid');
+const uniqid = require('uniqueid');
 
 module.exports = (app) => {
     app.get('/api/notes', (req, res) => {
@@ -15,7 +15,7 @@ module.exports = (app) => {
         const parsedData = JSON.parse(database);
         const newestNote = req.body;
 
-        newestNote.id = uniqueid();
+        newestNote.id = uniqid();
 
         parsedData.push(req.body);
 
